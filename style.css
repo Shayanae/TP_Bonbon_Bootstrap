@@ -1,0 +1,172 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #FCC0C0; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FC8585; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 1px solid #FCC0C0 /* creates padding around scroll thumb */
+}
+.imgGrand{
+    height: 500px;
+}
+header{
+    font-family: 'Jeju Hallasan', cursive;
+    width: 100%;
+}
+.sidebar{
+    font-family: 'Jua', sans-serif;
+    height: auto;
+}
+header, .sidebar{
+    background-color: #FC8585;
+}
+header a, footer a, main a{
+    text-decoration: none;
+}
+header a, header a:hover, main a, main a:hover{
+    color: #000000;
+}
+footer a, footer a:hover{
+    color: #FFFFFF;
+}
+.redirect{
+    height: auto;
+    width: auto;
+}
+.redirect:hover{
+    color: #444343;
+}
+.redirect:active{
+    color: #202020;
+}
+.home, .other{
+    background-color: #FCC0C0;
+}
+.home{
+    font-family: 'Jeju Hallasan', cursive;
+}
+.other{
+    font-family: 'Jua', sans-serif;
+    min-height: 945px;
+}
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Jeju Hallasan', cursive;
+}
+.element{
+    border: solid 3px;
+}
+.addElement, .typeElement{
+    height: 50px;
+    border: solid 2px;
+    background: #dad9d9;
+}
+.addElement{
+    width: 60px;
+}
+.bloc{
+    background-color: #E7B2B2;
+    border: solid 2px;
+}
+.typeElement{
+    width: 165px;
+}
+.typeLog, .mailContent{
+    background-color: #FFFFFF;
+    border: none;
+}
+.typeLog{
+    height: 50px;
+}
+.mailContent{
+    height: 300px;
+}
+.log{
+    width: 20%;
+}
+.addCart{
+    width: 60%;
+}
+.eye{
+    margin-left: -200px;
+}
+.addCart, .log{
+    background-color: #FC8585;
+    color: #FFFFFF;
+    border: none;
+}
+.cartImg{
+    border: solid 2px;
+}
+.cartDescript{
+    border-top: solid 2px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+}
+.fs-80{
+    font-size: 80px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.fs-70{
+    font-size: 70px;
+}
